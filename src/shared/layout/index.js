@@ -28,7 +28,7 @@ class Layout extends React.Component {
                     <Route path="/contactus" component={ContactUs}/>
                     <Route path="/product/:id" component={Product}/>
                 </Switch>
-                <Modal toggle={this.hideModal.bind(this)}></Modal>
+                <Modal/>
             </Router>
         );
     }
